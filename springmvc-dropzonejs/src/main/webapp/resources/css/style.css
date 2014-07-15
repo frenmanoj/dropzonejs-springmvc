@@ -1,0 +1,56 @@
+.container {
+	margin-top: 10px;
+}
+
+.dz-filename {
+	font-weight:bold;
+}
+
+.dz-success-mark, .dz-error-mark {
+	display: none;
+}
+
+.dz-remove {
+	display: block;
+	text-align: center;
+}
+
+.dz-details {
+	border-bottom: 1px solid LightGray;
+}
+
+.dz-progress {
+	
+	margin-top: 15px;
+	background-color: #f5f5f5;
+	border-radius: 4px;
+}
+
+.dz-upload { 
+	border-radius: 4px;
+    display: block; 
+    background-color: #428bca; 
+    height: 20px;
+    width: 0%;
+    text-align: center;
+    color: white;
+}
+
+.dz-preview {
+	display: inline-block;
+	margin: 10px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	line-height: 1.42857;
+	margin-bottom: 20px;
+	padding: 4px;
+}
+
+.file-dropzone {
+	border: 1px dashed #ddd;
+}
+
+.file-dropzone.drag-over {
+	outline: LightGreen solid 4px;
+}
